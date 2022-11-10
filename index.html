@@ -9,27 +9,28 @@
 h1{
     display: flex;
     justify-content: center;
+    font-size: 10rem;
 }
 
 
 .navigation{
-    font-size: 20px;
-   margin-left: 50px;
+    font-size: 3rem;
+   margin-left: 25rem;
 }
 #about{
-    padding-right: 10px;
+    padding-right: 10rem;
 }
 #help{
-    padding-right:10px;
+    padding-right:10rem;
 }
 fieldset{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 25rem;
+    margin-right: 30rem;
 }
 .intro{
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 4rem;
     text-decoration: underline;
     text-decoration-color: black;
 }
@@ -40,13 +41,25 @@ fieldset{
     
 }
 img {  
-    width: 150px; 
-   padding-left: 450px;
-   padding-right :40px;
+    width: 15rem; 
+   padding-left: 45rem;
+   padding-right :4rem;
   } 
  #pen_s{
-    width:120px;
-    height:20px;
+    width:12rem;
+    height:3rem;
+ }
+ .pencil{
+    display: flex;
+    justify-content: flex-start;
+ }
+ #pencil_s{
+    width:12rem;
+    height:3rem;
+    
+ }
+ label{
+    font-size: 3rem;
  }
 </style>
 
@@ -72,16 +85,16 @@ img {
       <option value="pink">pink</option>
       <option value="pen without refil">pen without refil</option>
     </select>
-
-
-</div>
-
-  
-
-    
-
-
-
+    </div>
+    <div class="pencil">
+<img src="istockphoto-466633605-170667a.jpg" alt="pencil">
+<label for="cars">list of pen in our store</label>
+<select id="pencil_s">
+    <option value="black">black</option>
+    <option value="white">white</option>
+    <option value="green">green</option>
+    <option value="yellow">yellow</option>
+    </div>
 </fieldset>
 </body>
 </html>
